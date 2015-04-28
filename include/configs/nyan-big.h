@@ -58,6 +58,7 @@
 /* USB networking support */
 #define CONFIG_USB_HOST_ETHER
 #define CONFIG_USB_ETHER_ASIX
+#define CONFIG_USB_ETHER_ASIX88179
 
 /* General networking support */
 #define CONFIG_CMD_NET
