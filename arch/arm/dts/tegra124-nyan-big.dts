@@ -230,7 +230,6 @@
 
 	usb@7d000000 { /* Rear external USB port. */
 		status = "okay";
-		nvidia,vbus-gpio = <&gpio TEGRA_GPIO(N, 4) GPIO_ACTIVE_HIGH>;
 	};
 
 	usb-phy@7d000000 {
@@ -247,7 +246,6 @@
 
 	usb@7d008000 { /* Left external USB port. */
 		status = "okay";
-		nvidia,vbus-gpio = <&gpio TEGRA_GPIO(N, 5) GPIO_ACTIVE_HIGH>;
 	};
 
 	usb-phy@7d008000 {
